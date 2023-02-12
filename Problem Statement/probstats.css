@@ -1,0 +1,157 @@
+
+*{
+    font-family: "Lucida Handwriting",Cursive;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #111222; */
+    background-color: rgb(99, 136, 7, 0.25);
+}
+html{
+    scroll-behavior:smooth;
+}
+ul li{
+    padding: 20px 40px;
+    font-size: 20px;
+}
+.container-fluid{
+    color: rgb(25, 67, 53);
+}
+.tech{
+    padding: 40px 10px;
+}
+.navbar-brand img{
+    color:aquamarine;
+    width: 100px;
+}
+#Nav{
+    background-color: transparent;
+}
+#first{
+    margin-top: 10px;
+    font-weight: 500;
+    padding: 50px 150px;
+    line-height: 2em;
+    font-size: 30px;
+}
+:root{
+    --primary-color: rgb(99, 136, 7, 0.25);
+    --secondary-color: #212121;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color:  rgb(99, 136, 7, 0.25) ;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-title{
+ font-size: 4em;
+ margin-bottom: 50px;
+}
+.content{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .image{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.content .image img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.content .text-box{
+    z-index: 222;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+
+}
+.contact{
+    align-items: centre;
+    padding: 0px 600px;
+}
+.content .text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.media-icons a{
+    color: #fff;
+    font-size: 2em;
+    margin: 60px;
+}
+.section-title{
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+.info-title{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.info{
+    width: 700px;
+    margin-left: 50px;
+}
+.media-info{
+    width: 400px;
+    margin-left: 50px;
+}
+.media-info li{
+    list-style: none;
+    font-size: 1.4em;
+}
+.media-info li a{
+    color: #fff;
+    text-decoration: none;
+}
+.media-info li:not(:last-child){
+    margin-bottom: 50px;
+}
+.media-info li:nth-child(1), .media-info li:nth-child(5){
+    padding-left: 100px;
+}
+.media-info li:nth-child(2), .media-info li:nth-child(4){
+    padding-left: 50px;
+}
+.sec-03{
+    margin-bottom: 100px;
+}
+#second{
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+    
+}
